@@ -27,6 +27,7 @@ public class calc {
                 System.out.println("invalid input"); //error msg for invalid input
         }
         System.out.println("==> "+ans); //displaying final answer
-        sc.close(); //closing scanner, you should to avoid resource leaks
+        
+        sc.close(); //closing scanner, you should to avoid resource leak
     }
 }
